@@ -32,25 +32,25 @@ class Header extends Component {
 
             <li>
               <a className="smoothscroll" href="#about">
-                About
+                Sobre
               </a>
             </li>
 
             <li>
               <a className="smoothscroll" href="#resume">
-                Resume
+                Currículo
               </a>
             </li>
 
             <li>
               <a className="smoothscroll" href="#portfolio">
-                Works
+                Projetos
               </a>
             </li>
 
             <li>
               <a className="smoothscroll" href="#contact">
-                Contact
+                Blog
               </a>
             </li>
           </ul>
@@ -67,10 +67,10 @@ class Header extends Component {
             <hr />
             <Fade bottom duration={2000}>
               <ul className="social">
-                <a href={project} className="button btn project-btn">
-                  <i className="fa fa-book"></i>Project
+                <a href={project} className="button btn project-btn" href="#portfolio">
+                  <i className="fa fa-book"></i>Projetos
                 </a>
-                <a href={github} className="button btn github-btn">
+                <a href={github} target="_blank" className="button btn github-btn">
                   <i className="fa fa-github"></i>Github
                 </a>
               </ul>
