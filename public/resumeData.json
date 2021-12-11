@@ -1,42 +1,30 @@
 {
   "main": {
-    "name":"Olá, eu sou Mírian!",
+    "name":"Mírian Batista",
     "description":"Eu adoro analisar dados com python e Star Trek Discovery é minha série preferida",
     "image":"profilepic.jpg",
     "bio":"Use this bio section as your way of describing yourself and saying what you do, what technologies you like to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing in.",
     "contactmessage":"Here is where you should write your message to readers to have them get in contact with you.",
     "email": "mirian.batista@dcx.ufpb.br",
-    "phone": "555-555-5555",
+    "phone": "83988541550",
     "github":"https://github.com/mirianbatista",
     "project":"https://github.com/nordicgiant2/react-nice-resume",
     "address":{
-      "street":"(Your Street)",
-      "city":"(Your City)",
-      "state":"(Your State)",
-      "zip": "(Your Zip/Postal Code)"
+      "city":"João Pessoa",
+      "state":"Paraíba"
     },
     "website": "mirianbatista.github.io",
-    "resumedownload":"http://timbakerdev.com",
+    "resumedownload":"https://docs.google.com/document/d/1OOAc8a1ytJo7buTsZer-Ki382ZAh2ePnlDJaBzZ-qts/edit?usp=sharing",
     "social":[
       {
-        "name":"facebook",
-        "url":"https://github.com/nordicgiant2/react-nice-resume",
-        "className":"fa fa-facebook"
-      },
-      {
         "name":"twitter",
-        "url":"http://twitter.com",
+        "url":"http://twitter.com/mirianbatista__",
         "className":"fa fa-twitter"
       },
       {
         "name":"linkedin",
-        "url":"https://www.linkedin.com/in/tim-baker-8420009a/",
+        "url":"https://www.linkedin.com/in/mirianbatista",
         "className":"fa fa-linkedin"
-      },
-      {
-        "name":"instagram",
-        "url":"http://instagram.com/tbaker_x",
-        "className":"fa fa-instagram"
       },
       {
         "name":"github",
@@ -52,12 +40,6 @@
         "school":"University?",
         "degree":"Masters in Beer tasting",
         "graduated":"April 2017",
-        "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
-      },
-      {
-        "school":"School #1 Maybe College?",
-        "degree":"What did you study 101",
-        "graduated":"March 2013",
         "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
       }
     ],
