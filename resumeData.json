@@ -22,14 +22,19 @@
         "className":"fa fa-twitter"
       },
       {
+        "name":"github",
+        "url":"https://github.com/nordicgiant2/mirianbatista",
+        "className":"fa fa-github"
+      },
+      {
+        "name":"email",
+        "url":"mirian.batista@dcx.ufpb.br",
+        "className":"fa fa-envelope"
+      },
+      {
         "name":"linkedin",
         "url":"https://www.linkedin.com/in/mirianbatista",
         "className":"fa fa-linkedin"
-      },
-      {
-        "name":"github",
-        "url":"https://github.com/nordicgiant2/react-nice-resume",
-        "className":"fa fa-github"
       }
     ]
   },
@@ -37,24 +42,24 @@
     "skillmessage":"Here you can create a short write-up of your skills to show off to employers",
     "education":[
       {
-        "school":"University?",
-        "degree":"Masters in Beer tasting",
-        "graduated":"April 2017",
+        "school":"Universidade Federal da Paraíba",
+        "degree":"Sistemas de Informação",
+        "graduated":"Dezembro 2021",
         "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
       }
     ],
     "work":[
       {
-        "company":"Awesome Design Studio",
-        "title":"Senior UX God ",
-        "years":"March 2018 - Present",
-        "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+        "company":"Dataprev",
+        "title":"Estagiária de Business Intelligence",
+        "years":"Fevereiro a dezembro de 2021",
+        "description":"Atuei a maior parte do tempo fazendo ETL, mas também contribuí com a especificação das regras das cargas de dados e no frontend, a depender das demandas do projeto. O projeto é o BI da Receita Federal, cuja missão é extrair os dados de impostos previdenciários de suas fontes e estruturar eles em camadas para que esses dados fiquem disponíveis em um site e a Receita possa fazer análises e fiscalizações a partir disso."
       },
       {
-        "company":"Super Cool Studio",
-        "title":"Junior bug fixer",
-        "years":"March 2017 - February 2018",
-        "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+        "company":"Ayty-Phoebus Tecnologia",
+        "title":"Bolsista em Análise e engenharia de dados",
+        "years":"Setembro a dezembro de 2021",
+        "description":"Atuei na empresa Phoebus Tecnologia em parceria com o Ayty na área de pesquisa em previsão de séries temporais utilizando Fbprophet, LSTM, dentre outras técnicas. Além disso, produzia ETLs com Pentaho e Airflow utilizando as previsões quando consolidadas."
       }
     ],
     "skills":[
