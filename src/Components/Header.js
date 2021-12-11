@@ -49,7 +49,7 @@ class Header extends Component {
             </li>
 
             <li>
-              <a className="smoothscroll" href="#contact">
+              <a href="https://create-react-blog.netlify.app/">
                 Blog
               </a>
             </li>

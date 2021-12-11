@@ -97,37 +97,37 @@
     "projects": [
       {
         "title":"Estagiária de UX do Autônomos Digitais",
-        "category":"My Travel Blog for my post-university travels",
+        "description":"Saiba mais",
         "image":"01.png",
         "url":"https://autonomos.dcx.ufpb.br/"
       },
       {
         "title":"Analista de dados do Laboratório de Dados",
-        "category":"(offline now) A fighting gear company I started",
+        "description":"Saiba mais",
         "image":"02.png",
         "url":"http://www.timbakerdev.com"
       },
       {
         "title":"Pesquisadora de Séries Temporais",
-        "category":"Website I built for a restaurant I like in Thailand",
+        "description":"Saiba mais",
         "image":"03.jpg",
         "url":"http://www.timbakerdev.com/originalthaifood.github.io"
       },
       {
         "title":"Organizadora do I Cerveja com dados João Pessoa",
-        "category":"A React based resume website template",
+        "description":"Saiba mais",
         "image":"04.jpeg",
         "url":"http://www.timbakerdev.com"
       },
       {
         "title":"Assistente de Acesso à Informação",
-        "category":"(MVP Only) A React and Meteor based chat University project.",
+        "description":"Saiba mais",
         "image":"05.jpeg",
         "url":"http://www.smirkspace.com"
       },
       {
         "title":"Assistente de Empreendedorismo",
-        "category":"My Travel Blog for my post-university travels",
+        "description":"Saiba mais",
         "image":"06.jpg",
         "url":"https://www.canadianwanderlust.com"
       }
