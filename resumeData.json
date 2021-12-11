@@ -96,73 +96,37 @@
   "portfolio":{
     "projects": [
       {
-        "title":"Canadian Wanderlust",
+        "title":"Estagiária de UX do Autônomos Digitais",
         "category":"My Travel Blog for my post-university travels",
-        "image":"01.jpg",
-        "url":"https://www.canadianwanderlust.com"
+        "image":"01.png",
+        "url":"https://autonomos.dcx.ufpb.br/"
       },
       {
-        "title":"Fury Fighting Gear",
+        "title":"Analista de dados do Laboratório de Dados",
         "category":"(offline now) A fighting gear company I started",
-        "image":"02.jpg",
+        "image":"02.png",
         "url":"http://www.timbakerdev.com"
       },
       {
-        "title":"Original Thai Food",
+        "title":"Pesquisadora de Séries Temporais",
         "category":"Website I built for a restaurant I like in Thailand",
         "image":"03.jpg",
         "url":"http://www.timbakerdev.com/originalthaifood.github.io"
       },
       {
-        "title":"Resume Website",
+        "title":"Organizadora do I Cerveja com dados João Pessoa",
         "category":"A React based resume website template",
-        "image":"04.jpg",
+        "image":"04.jpeg",
         "url":"http://www.timbakerdev.com"
       },
       {
-        "title":"Smirkspace",
+        "title":"Assistente de Acesso à Informação",
         "category":"(MVP Only) A React and Meteor based chat University project.",
-        "image":"05.jpg",
+        "image":"05.jpeg",
         "url":"http://www.smirkspace.com"
       },
       {
-        "title":"Canadian Wanderlust",
-        "category":"My Travel Blog for my post-university travels",
-        "image":"06.jpg",
-        "url":"https://www.canadianwanderlust.com"
-      },
-      {
-        "title":"Fury Fighting Gear",
-        "category":"(offline now) A fighting gear company I started",
-        "image":"01.jpg",
-        "url":"http://www.timbakerdev.com"
-      },
-      {
-        "title":"Original Thai Food",
-        "category":"Website I built for a restaurant I like in Thailand",
-        "image":"02.jpg",
-        "url":"http://www.timbakerdev.com/originalthaifood.github.io"
-      },
-      {
-        "title":"Original Thai Food",
-        "category":"Website I built for a restaurant I like in Thailand",
-        "image":"03.jpg",
-        "url":"http://www.timbakerdev.com/originalthaifood.github.io"
-      },
-      {
-        "title":"Resume Website",
-        "category":"A React based resume website template",
-        "image":"04.jpg",
-        "url":"http://www.timbakerdev.com"
-      },
-      {
-        "title":"Smirkspace",
-        "category":"(MVP Only) A React and Meteor based chat University project.",
-        "image":"05.jpg",
-        "url":"http://www.smirkspace.com"
-      },
-      {
-        "title":"Canadian Wanderlust",
+        "title":"Assistente de Empreendedorismo",
         "category":"My Travel Blog for my post-university travels",
         "image":"06.jpg",
         "url":"https://www.canadianwanderlust.com"
