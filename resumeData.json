@@ -1,7 +1,7 @@
 {
   "main": {
     "name":"Mírian Batista",
-    "description":"Eu adoro analisar dados com python e Star Trek Discovery é minha série preferida",
+    "description":"Eu adoro analisar dados com python e Star Trek Discovery é minha série favorita",
     "image":"profilepic.jpg",
     "bio":"Use this bio section as your way of describing yourself and saying what you do, what technologies you like to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing in.",
     "contactmessage":"Here is where you should write your message to readers to have them get in contact with you.",
@@ -23,7 +23,7 @@
       },
       {
         "name":"github",
-        "url":"https://github.com/nordicgiant2/mirianbatista",
+        "url":"https://github.com/mirianbatista",
         "className":"fa fa-github"
       },
       {
@@ -99,37 +99,37 @@
         "title":"Estagiária de UX do Autônomos Digitais",
         "description":"Saiba mais",
         "image":"01.png",
-        "url":"https://autonomos.dcx.ufpb.br/"
+        "url":"https://blog-phi-rouge.vercel.app/blog/estagio_autism_guide"
       },
       {
         "title":"Analista de dados do Laboratório de Dados",
         "description":"Saiba mais",
         "image":"02.png",
-        "url":"http://www.timbakerdev.com"
+        "url":"https://blog-phi-rouge.vercel.app/blog/tec_cid"
       },
       {
         "title":"Pesquisadora de Séries Temporais",
         "description":"Saiba mais",
         "image":"03.jpg",
-        "url":"http://www.timbakerdev.com/originalthaifood.github.io"
+        "url":"https://blog-phi-rouge.vercel.app/blog/pibic"
       },
       {
         "title":"Organizadora do I Cerveja com dados João Pessoa",
         "description":"Saiba mais",
         "image":"04.jpeg",
-        "url":"http://www.timbakerdev.com"
+        "url":"https://blog-phi-rouge.vercel.app/blog/cerveja"
       },
       {
         "title":"Assistente de Acesso à Informação",
         "description":"Saiba mais",
         "image":"05.jpeg",
-        "url":"http://www.smirkspace.com"
+        "url":"https://blog-phi-rouge.vercel.app/blog/cidadao_no_controle"
       },
       {
         "title":"Assistente de Empreendedorismo",
         "description":"Saiba mais",
         "image":"06.jpg",
-        "url":"https://www.canadianwanderlust.com"
+        "url":"https://blog-phi-rouge.vercel.app/blog/empreendedorismo"
       }
     ]
   }
