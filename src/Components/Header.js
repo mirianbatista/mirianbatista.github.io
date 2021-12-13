@@ -49,7 +49,7 @@ class Header extends Component {
             </li>
 
             <li>
-              <a href="https://mirianbatista.github.io/blog/">
+              <a href="https://blog-phi-rouge.vercel.app/" target="_blank" >
                 Blog
               </a>
             </li>
