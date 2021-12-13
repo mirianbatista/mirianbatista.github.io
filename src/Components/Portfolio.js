@@ -14,11 +14,13 @@ class Portfolio extends Component {
         <div key={id++} className="columns portfolio-item">
           <div className="item-wrap">
             <img alt={projects.title} src={projectImage} />
-            <div style={{ textAlign: "center" }}>{projects.title}</div>
+            <hr style={{width:"90%", margin:"5%"}}/>
+            <div style={{ textAlign: "center", lineHeight: '1.4', marginTop: "5%" }}>{projects.title}</div>
           </div>
           <div className="popup-modal">
             <div style={{ textAlign: "center" }}><a style={{ color:"#FE6928" }} href={projects.url}>{projects.description}</a></div>
           </div>
+          {/*width:"60%", borderTop: "1px solid #1ABC9C", paddingTop: "2px", */}
         </div>
       );
     });

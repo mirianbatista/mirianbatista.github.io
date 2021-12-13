@@ -49,7 +49,7 @@ class Header extends Component {
             </li>
 
             <li>
-              <a href="https://create-react-blog.netlify.app/">
+              <a href="https://mirianbatista.github.io/blog/">
                 Blog
               </a>
             </li>

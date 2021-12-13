@@ -45,7 +45,7 @@ class About extends Component {
                 <div className="columns download">
                   <p>
                     <a href={resumeDownload} target="_blank" className="button">
-                      <i className="fa fa-download"></i>Download Resume
+                      <i className="fa fa-download"></i>Baixar currículo
                     </a>
                   </p>
                 </div>
