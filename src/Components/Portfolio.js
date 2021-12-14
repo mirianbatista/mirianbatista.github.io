@@ -18,7 +18,7 @@ class Portfolio extends Component {
             <div style={{ textAlign: "center", lineHeight: '1.4', marginTop: "5%" }}>{projects.title}</div>
           </div>
           <div className="popup-modal">
-            <div style={{ textAlign: "center" }}><a style={{ color:"#FE6928" }} href={projects.url}>{projects.description}</a></div>
+            <div style={{ textAlign: "center" }}><a style={{ color:"#FE6928" }} target="_blank" href={projects.url}>{projects.description}</a></div>
           </div>
           {/*width:"60%", borderTop: "1px solid #1ABC9C", paddingTop: "2px", */}
         </div>
@@ -30,7 +30,7 @@ class Portfolio extends Component {
         <Fade left duration={1000} distance="40px">
           <div className="row">
             <div className="twelve columns collapsed">
-              <h1  style={{ fontWeight: "bold" }}>Conheça alguns projetos em que eu trabalhei!</h1>
+              <h1 style={{ fontWeight: "bold" }}>Conheça alguns projetos em que eu trabalhei!</h1>
 
               <div
                 id="portfolio-wrapper"
