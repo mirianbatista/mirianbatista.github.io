@@ -27,8 +27,8 @@ class About extends Component {
             </div>
             <div className="nine columns main-col">
               <h2>Sobre mim</h2>
-
-              <p>{bio}</p>
+              <p dangerouslySetInnerHTML={ { __html: bio } }></p>
+              {/*<p>{bio}</p>*/}
               <div className="row">
                 <div className="columns contact-details">
                   <h2>Contato</h2>
