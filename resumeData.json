@@ -95,12 +95,6 @@
   "portfolio":{
     "projects": [
       {
-        "title":"Estagiária de UX do Autônomos Digitais",
-        "description":"Saiba mais",
-        "image":"01.png",
-        "url":"https://blog-phi-rouge.vercel.app/blog/estagio_autism_guide"
-      },
-      {
         "title":"Analista de dados do Laboratório de Dados",
         "description":"Saiba mais",
         "image":"02.png",
@@ -111,6 +105,12 @@
         "description":"Saiba mais",
         "image":"03.jpg",
         "url":"https://blog-phi-rouge.vercel.app/blog/pibic"
+      },
+      {
+        "title":"Estagiária de UX do Autônomos Digitais",
+        "description":"Saiba mais",
+        "image":"01.png",
+        "url":"https://blog-phi-rouge.vercel.app/blog/estagio_autism_guide"
       },
       {
         "title":"Organizadora do I Cerveja com dados João Pessoa",
