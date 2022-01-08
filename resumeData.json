@@ -58,7 +58,7 @@
         "company":"Ayty - Phoebus",
         "title":"Bolsista em Análise e engenharia de dados",
         "years":"Setembro a dezembro de 2021",
-        "description":"Atuei na empresa Phoebus em parceria com o <a href=\"http://ayty.org/\"target=\"_blank\">Ayty</a> na área de pesquisa em previsão de séries temporais utilizando Fbprophet, LSTM, dentre outras técnicas. Além disso, participei do projeto de migração do Pentaho para o Airflow, além de construir as ETLs de previsão quando consolidadas."
+        "description":"Atuei na empresa Phoebus em parceria com o Ayty na área de pesquisa em previsão de séries temporais utilizando Fbprophet, LSTM, dentre outras técnicas. Além disso, participei do projeto de migração do Pentaho para o Airflow, além de construir as ETLs de previsão quando consolidadas."
       },
       {
         "company":"Dataprev",
