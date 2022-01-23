@@ -115,8 +115,7 @@
       {
         "title":"Pesquisadora de Séries Temporais",
         "description":"Saiba mais",
-        "image":"03.jpg",
-        "url":""
+        "image":"03.jpg"
       },
       {
         "title":"Organizadora do I Cerveja com dados João Pessoa",
@@ -127,14 +126,12 @@
       {
         "title":"Assistente de Acesso à Informação",
         "description":"Saiba mais",
-        "image":"05.jpeg",
-        "url":""
+        "image":"05.jpeg"
       },
       {
         "title":"Assistente de Empreendedorismo",
         "description":"Saiba mais",
-        "image":"06.jpg",
-        "url":""
+        "image":"06.jpg"
       }
     ]
   }
