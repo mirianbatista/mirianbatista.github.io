@@ -104,37 +104,37 @@
         "title":"Estagiária de UX do Autônomos Digitais",
         "description":"Saiba mais",
         "image":"01.png",
-        "url":"https://blog-phi-rouge.vercel.app/blog/estagio_autism_guide"
+        "url":"https://blog-mirianbatista.vercel.app/blog/estagio_autism_guide"
       },
       {
         "title":"Analista de dados do Laboratório de Dados",
         "description":"Saiba mais",
         "image":"02.png",
-        "url":"https://blog-phi-rouge.vercel.app/blog/tec_cid"
+        "url":"https://blog-mirianbatista.vercel.app/blog/tec_cid"
       },
       {
         "title":"Pesquisadora de Séries Temporais",
         "description":"Saiba mais",
         "image":"03.jpg",
-        "url":"https://blog-phi-rouge.vercel.app/blog/pibic"
+        "url":""
       },
       {
         "title":"Organizadora do I Cerveja com dados João Pessoa",
         "description":"Saiba mais",
         "image":"04.jpeg",
-        "url":"https://blog-phi-rouge.vercel.app/blog/cerveja"
+        "url":"https://blog-mirianbatista.vercel.app/blog/cerveja"
       },
       {
         "title":"Assistente de Acesso à Informação",
         "description":"Saiba mais",
         "image":"05.jpeg",
-        "url":"https://blog-phi-rouge.vercel.app/blog/cidadao_no_controle"
+        "url":""
       },
       {
         "title":"Assistente de Empreendedorismo",
         "description":"Saiba mais",
         "image":"06.jpg",
-        "url":"https://blog-phi-rouge.vercel.app/blog/empreendedorismo"
+        "url":""
       }
     ]
   }
