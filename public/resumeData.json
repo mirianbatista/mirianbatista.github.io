@@ -52,19 +52,19 @@
         "company":"Phoebus",
         "title":"Analista de dados",
         "years":"Janeiro de 2022 - Atual",
-        "description":""
+        "description":"Trabalhei na implantação do uso do Google Analytics (GA4) desde a etapa de autenticação na GCP, passando pela exploração das possibilidades de requisição dos dados (API Analytics, gsutil, API Data Analytics, etc) até a construção das ETLs desses dados no Airflow, análise exploratória em jupyter notebook com python e dashboards no PowerBI das visualizações de dados mais interessantes para o negócio."
       },
       {
         "company":"Ayty - Phoebus",
         "title":"Bolsista em Análise e engenharia de dados",
         "years":"Setembro a dezembro de 2021",
-        "description":"Atuei na empresa Phoebus em parceria com o Ayty na área de pesquisa em previsão de séries temporais utilizando Fbprophet, LSTM, dentre outras técnicas. Além disso, participei do projeto de migração do Pentaho para o Airflow, além de construir as ETLs de previsão quando consolidadas."
+        "description":"Fui bolsista do Ayty (ayty.org) em parceria com a Phoebus e trabalhei no projeto de pesquisa em previsão de séries temporais utilizando Fbprophet, LSTM, dentre outras técnicas. Além disso, participei do projeto de migração das ETLs do Pentaho para o Airflow e da construção das ETLs de previsão no Airflow quando consolidadas."
       },
       {
         "company":"Dataprev",
         "title":"Estagiária de Business Intelligence",
         "years":"Fevereiro a dezembro de 2021",
-        "description":"Atuei a maior parte do tempo fazendo ETL, mas também contribuí com a especificação das regras das cargas de dados e no frontend, a depender das demandas do projeto. O projeto é o BI da Receita Federal, cuja missão é extrair os dados de impostos previdenciários de suas fontes e estruturar eles em camadas para que esses dados fiquem disponíveis em um site e a Receita possa fazer análises e fiscalizações a partir disso."
+        "description":"Atuei a maior parte do tempo fazendo ETL, mas também contribuí com a especificação das regras das cargas de dados e no frontend, a depender das demandas do projeto. O projeto é o BI da Receita Federal. A missão da equipe que eu participei é extrair os dados de impostos previdenciários de suas fontes e estruturar eles em camadas para que esses dados fiquem disponíveis em um site e a Receita possa fazer análises e fiscalizações a partir disso."
       }
     ],
     "skills":[
@@ -115,8 +115,7 @@
       {
         "title":"Pesquisadora de Séries Temporais",
         "description":"Saiba mais",
-        "image":"03.jpg",
-        "url":""
+        "image":"03.jpg"
       },
       {
         "title":"Organizadora do I Cerveja com dados João Pessoa",
@@ -127,14 +126,12 @@
       {
         "title":"Assistente de Acesso à Informação",
         "description":"Saiba mais",
-        "image":"05.jpeg",
-        "url":""
+        "image":"05.jpeg"
       },
       {
         "title":"Assistente de Empreendedorismo",
         "description":"Saiba mais",
-        "image":"06.jpg",
-        "url":""
+        "image":"06.jpg"
       }
     ]
   }
