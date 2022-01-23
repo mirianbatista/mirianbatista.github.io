@@ -42,13 +42,6 @@ class About extends Component {
                     <span>{email}</span>
                   </p>
                 </div>
-                <div className="columns download">
-                  <p>
-                    <a href={resumeDownload} target="_blank" className="button">
-                      <i className="fa fa-download"></i>Baixar currículo
-                    </a>
-                  </p>
-                </div>
               </div>
             </div>
           </div>
