@@ -49,7 +49,7 @@ class Header extends Component {
             </li>
 
             <li>
-              <a href="https://blog-mirianbatista.vercel.app/" target="_blank" >
+              <a href="https://blog-mirianbatista.vercel.app/">
                 Blog
               </a>
             </li>
