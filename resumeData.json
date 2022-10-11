@@ -51,7 +51,7 @@
       {
         "company":"James delivery",
         "title":"Engenheira de dados",
-        "years":"Abril de 2022 - Atual",
+        "years":"Abril 2022 - Atual",
         "description":"Atuei na implementação de datalake e no desenvolvimento do ambiente de testes do datalake; fui responsável pela criação, manutenção e monitoramento de dags airflow; auxiliei as equipes de data analytics e data science em manutenções de ETLs e modelos; contribuí no monitoramento e redução de custos de serviços AWS; realizei implementações e manutenções de integrações com dados externos."
       },
       {
