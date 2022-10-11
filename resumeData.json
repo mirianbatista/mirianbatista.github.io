@@ -3,7 +3,7 @@
     "name":"Mírian Batista",
     "description":"Eu adoro analisar dados com python e Star Trek Discovery é minha série favorita",
     "image":"profilepic.jpg",
-    "bio":"Houve um momento na minha graduação que eu estive perdida profissionalmente. Mas, um dia eu estava no Twitter e conheci o <a href=\"https://serenata.ai/\"target=\"_blank\"> Serenata de Amor</a>. Aquele exemplo de pessoas que pegaram um conjunto de dados enorme, impossível de ser devidamente analisado por humanos, e colocaram um robô para fazer isso, abriu novos mundos para mim, tal qual Miller para Holden em The Expanse. <br />Isso aconteceu em 2018. De lá pra cá eu busquei projetos na universidade para desenvolver as minhas habilidades de python, de estatística e de design, além de me aprofundar em reflexões sobre como posso usar tecnologia para exercer a minha cidadania enquanto desenvolvedora. O meu conhecimento junto com um pouco de sorte me levaram à ricas oportunidades profissionais, onde eu pude confirmar que permanecerei no caminho dos dados por um bom tempo!",
+    "bio":"Houve um momento na minha graduação que eu estive perdida profissionalmente. Mas, um dia eu estava no Twitter e conheci o <a href=\"https://serenata.ai/\"target=\"_blank\"> Serenata de Amor</a>. Aquele exemplo de pessoas que pegaram um conjunto de dados enorme e de considerável interesse público, impossível de ser devidamente analisado por humanos, e colocaram um robô para fazer isso, abriu novos mundos para mim, tal qual Miller para Holden em The Expanse. <br />Isso aconteceu em 2018. De lá pra cá eu busquei projetos na universidade para desenvolver as minhas habilidades de python, de design e de estatística, além de me aprofundar em reflexões sobre como posso usar tecnologia para exercer a minha cidadania enquanto desenvolvedora. O meu conhecimento junto com um pouco de sorte me levaram à ricas oportunidades profissionais, onde eu pude confirmar que permanecerei no caminho dos dados por um bom tempo!",
     "email": "mirian.batista@dcx.ufpb.br",
     "phone": "83988541550",
     "github":"https://github.com/mirianbatista",
@@ -49,16 +49,22 @@
     ],
     "work":[
       {
-        "company":"Dataprev",
-        "title":"Estagiária de Business Intelligence",
-        "years":"Fevereiro a dezembro de 2021",
-        "description":"Atuei a maior parte do tempo fazendo ETL, mas também contribuí com a especificação das regras das cargas de dados e no frontend, a depender das demandas do projeto. O projeto é o BI da Receita Federal, cuja missão é extrair os dados de impostos previdenciários de suas fontes e estruturar eles em camadas para que esses dados fiquem disponíveis em um site e a Receita possa fazer análises e fiscalizações a partir disso."
+        "company":"James delivery",
+        "title":"Engenheira de dados",
+        "years":"Abril de 2022 - Atual",
+        "description":"Atuei na implementação de datalake e no desenvolvimento do ambiente de testes do datalake; fui responsável pela criação, manutenção e monitoramento de dags airflow; auxiliei as equipes de data analytics e data science em manutenções de ETLs e modelos; contribuí no monitoramento e redução de custos de serviços AWS; realizei implementações e manutenções de integrações com dados externos."
       },
       {
-        "company":"Ayty-Phoebus Tecnologia",
-        "title":"Bolsista em Análise e engenharia de dados",
-        "years":"Setembro a dezembro de 2021",
-        "description":"Atuei na empresa Phoebus Tecnologia em parceria com o Ayty na área de pesquisa em previsão de séries temporais utilizando Fbprophet, LSTM, dentre outras técnicas. Além disso, produzia ETLs com Pentaho e Airflow utilizando as previsões quando consolidadas."
+        "company":"Phoebus",
+        "title":"Analytics engineer",
+        "years":"Setembro 2021 - Abril 2022",
+        "description":"Implementei as ETLs e dashboards PowerBI dos produtos de dados do Google (Analytics, Cloud Storage, Play Console), atuei em projetos de previsão de séries temporais, além de realizar eventuais migrações de ETLs do Pentaho para o Airflow e manutenções de ETLs em geral."
+      },
+      {
+        "company":"Dataprev",
+        "title":"Estagiária de Business Intelligence",
+        "years":"Fevereiro 2021 - Dezembro 2021",
+        "description":"Estagiei no BI da Receita Federal contribuindo com a implementação das ETLs, com a especificação das regras das cargas de dados e no frontend."
       }
     ],
     "skills":[
@@ -95,40 +101,37 @@
   "portfolio":{
     "projects": [
       {
+        "title":"Estagiária de UX do Autônomos Digitais",
+        "description":"Saiba mais",
+        "image":"01.png",
+        "url":"https://blog-mirianbatista.vercel.app/blog/estagio_autism_guide"
+      },
+      {
         "title":"Analista de dados do Laboratório de Dados",
         "description":"Saiba mais",
         "image":"02.png",
-        "url":"https://blog-phi-rouge.vercel.app/blog/tec_cid"
+        "url":"https://blog-mirianbatista.vercel.app/blog/tec_cid"
       },
       {
         "title":"Pesquisadora de Séries Temporais",
         "description":"Saiba mais",
-        "image":"03.jpg",
-        "url":"https://blog-phi-rouge.vercel.app/blog/pibic"
-      },
-      {
-        "title":"Estagiária de UX do Autônomos Digitais",
-        "description":"Saiba mais",
-        "image":"01.png",
-        "url":"https://blog-phi-rouge.vercel.app/blog/estagio_autism_guide"
+        "image":"03.jpg"
       },
       {
         "title":"Organizadora do I Cerveja com dados João Pessoa",
         "description":"Saiba mais",
         "image":"04.jpeg",
-        "url":"https://blog-phi-rouge.vercel.app/blog/cerveja"
+        "url":"https://blog-mirianbatista.vercel.app/blog/cerveja"
       },
       {
         "title":"Assistente de Acesso à Informação",
         "description":"Saiba mais",
-        "image":"05.jpeg",
-        "url":"https://blog-phi-rouge.vercel.app/blog/cidadao_no_controle"
+        "image":"05.jpeg"
       },
       {
         "title":"Assistente de Empreendedorismo",
         "description":"Saiba mais",
-        "image":"06.jpg",
-        "url":"https://blog-phi-rouge.vercel.app/blog/empreendedorismo"
+        "image":"06.jpg"
       }
     ]
   }
