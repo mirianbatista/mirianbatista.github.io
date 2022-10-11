@@ -1,11 +1,11 @@
 {
   "main": {
     "name":"Mírian Batista",
-    "description":"Eu adoro analisar dados com python e Star Trek Discovery é minha série favorita",
+    "description":"Eu adoro registrar dados sobre mim pra analisar eles com python e meu sonho é orbitar a Terra",
     "image":"profilepic.jpg",
     "bio":"Houve um momento na minha graduação que eu estive perdida profissionalmente. Mas, um dia eu estava no Twitter e conheci o <a href=\"https://serenata.ai/\"target=\"_blank\"> Serenata de Amor</a>. Aquele exemplo de pessoas que pegaram um conjunto de dados enorme e de considerável interesse público, impossível de ser devidamente analisado por humanos, e colocaram um robô para fazer isso, abriu novos mundos para mim, tal qual Miller para Holden em The Expanse. <br />Isso aconteceu em 2018. De lá pra cá eu busquei projetos na universidade para desenvolver as minhas habilidades de python, de design e de estatística, além de me aprofundar em reflexões sobre como posso usar tecnologia para exercer a minha cidadania enquanto desenvolvedora. O meu conhecimento junto com um pouco de sorte me levaram à ricas oportunidades profissionais, onde eu pude confirmar que permanecerei no caminho dos dados por um bom tempo!",
     "email": "mirian.batista@dcx.ufpb.br",
-    "phone": "83988541550",
+    "phone": "83981087095",
     "github":"https://github.com/mirianbatista",
     "project":"https://github.com/nordicgiant2/react-nice-resume",
     "address":{
@@ -13,7 +13,7 @@
       "state":"Paraíba"
     },
     "website": "mirianbatista.github.io",
-    "resumedownload":"https://docs.google.com/document/d/1OOAc8a1ytJo7buTsZer-Ki382ZAh2ePnlDJaBzZ-qts/edit?usp=sharing",
+    "resumedownload":"https://drive.google.com/file/d/1OjvFgdsxJMbyjXThDxCvOBi2gFHv3NEa/view?usp=sharing",
     "social":[
       {
         "name":"twitter",
