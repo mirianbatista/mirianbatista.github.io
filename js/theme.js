@@ -18,7 +18,7 @@
 
     function updateButton() {
       var dark = currentTheme() === 'dark';
-      button.textContent = dark ? '☀️' : '🌑';
+      button.textContent = dark ? '☀️' : '🌛';
       button.setAttribute('aria-label', dark ? 'mudar para o tema claro' : 'mudar para o tema escuro');
     }
 
