@@ -5,10 +5,35 @@
     Array.prototype.forEach.call(document.querySelectorAll('details.item'), function (d) { d.open = true; });
   }
 
+  /* A âncora fica exatamente a 1.1rem da barra (o mesmo respiro dos títulos de página),
+     medindo a altura real da barra (fracionária) em vez de estimar. */
+  function ajustaAncora() {
+    var topo = document.querySelector('.topo');
+    if (!topo) return;
+    var rem = parseFloat(getComputedStyle(document.documentElement).fontSize);
+    document.documentElement.style.setProperty('--ancora', (topo.getBoundingClientRect().height + 1.1 * rem) + 'px');
+  }
+
+  /* O scroll da âncora arredonda pra pixel inteiro; este ajuste fino zera o resto. */
+  function corrigeAncora() {
+    if (location.hash !== '#experiencia') return;
+    var topo = document.querySelector('.topo');
+    var secao = document.getElementById('experiencia');
+    if (!topo || !secao) return;
+    requestAnimationFrame(function () {
+      var rem = parseFloat(getComputedStyle(document.documentElement).fontSize);
+      var delta = secao.getBoundingClientRect().top - (topo.getBoundingClientRect().bottom + 1.1 * rem);
+      if (Math.abs(delta) > 0.05) window.scrollBy(0, delta);
+    });
+  }
+
   document.addEventListener('DOMContentLoaded', function () {
-    if (location.hash === '#experiencia') abreTudo();
+    ajustaAncora();
+    window.addEventListener('resize', ajustaAncora);
+
+    if (location.hash === '#experiencia') { abreTudo(); corrigeAncora(); }
     Array.prototype.forEach.call(document.querySelectorAll('.topo a[href$="#experiencia"]'), function (a) {
-      a.addEventListener('click', abreTudo);
+      a.addEventListener('click', function () { abreTudo(); corrigeAncora(); });
     });
 
     var linkInicio = document.querySelector('.topo a[href="/"]');
@@ -27,6 +52,6 @@
   });
 
   window.addEventListener('hashchange', function () {
-    if (location.hash === '#experiencia') abreTudo();
+    if (location.hash === '#experiencia') { abreTudo(); corrigeAncora(); }
   });
 })();
