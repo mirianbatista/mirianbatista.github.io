@@ -25,18 +25,35 @@
 <main id="conteudo">
   <section>
     <h1>Assinar o blog</h1>
-    <p>O blog publica um <strong>feed Atom</strong>, um arquivo que leitores de RSS acompanham pra te avisar quando sai post novo, sem depender de rede social.</p>
-    <p>A URL do feed é:</p>
-    <pre><code>https://mirianbatista.github.io/blog/feed.xml</code></pre>
-    <ul>
-      <li><strong>Com um leitor de RSS</strong> (Feedly, NetNewsWire, Inoreader…): adicione a URL acima e pronto.</li>
-      <li><strong>Por email:</strong> serviços como <a href="https://blogtrottr.com" target="_blank" rel="noopener">Blogtrottr</a> ou <a href="https://follow.it" target="_blank" rel="noopener">follow.it</a> entregam feeds na sua caixa de entrada; cole a URL do feed lá.</li>
-    </ul>
+    <p>O aviso de post novo sai pelo endereço do feed, sem rede social no meio:</p>
+    <pre><code id="feed-url">https://mirianbatista.github.io/blog/feed.xml</code></pre>
+    <p><button class="botao" id="copiar-feed" hidden>Copiar endereço</button></p>
+
+    <h2>Por email</h2>
+    <p>Cole o endereço acima no <a href="https://blogtrottr.com" target="_blank" rel="noopener">Blogtrottr</a> (gratuito) junto do seu email e confirme. Cada post novo chega na sua caixa de entrada.</p>
+
+    <h2>Num leitor de RSS</h2>
+    <p>Se você usa Feedly, NetNewsWire, Inoreader ou similar, adicione o endereço lá e pronto.</p>
+    <p class="post-data">O endereço é pra colar nesses serviços; abrir direto no navegador mostra XML cru mesmo, é assim que feed funciona.</p>
   </section>
 </main>
 
+<script>
+(function () {
+  var botao = document.getElementById('copiar-feed');
+  if (!botao || !navigator.clipboard) return;
+  botao.hidden = false;
+  botao.addEventListener('click', function () {
+    navigator.clipboard.writeText(document.getElementById('feed-url').textContent).then(function () {
+      botao.textContent = 'Copiado!';
+      setTimeout(function () { botao.textContent = 'Copiar endereço'; }, 2000);
+    });
+  });
+})();
+</script>
+
 <footer>
-  <p>© Mírian Batista · atualizado em 2026 · <a href="/blog/assinar.html">assinar o blog</a></p>
+  <p>© 2026 Mírian Batista · <a href="/blog/assinar.html">assinar o blog</a></p>
 </footer>
 </body>
 </html>
