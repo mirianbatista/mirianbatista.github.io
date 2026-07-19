@@ -108,8 +108,8 @@ a.post-cat:hover { border-color: var(--link); text-decoration: underline; }
 
 .gif-404 { display: block; margin-top: 2rem; border-radius: 8px; max-width: 100%; }
 
-/* título de página do menu: mesmo peso visual das seções da home */
-.titulo-secao { font-size: 1.35rem; margin: 3rem 0 1.5rem; border-bottom: 1px solid var(--borda); padding-bottom: 0.35rem; }
+/* título de página do menu: mesmo peso e mesma distância da barra que as seções da home ancoradas */
+.titulo-secao { font-size: 1.35rem; margin: 1.1rem 0 1.5rem; border-bottom: 1px solid var(--borda); padding-bottom: 0.35rem; }
 
 /* acessibilidade */
 .skip { position: absolute; left: -9999px; top: 0; background: var(--azul); color: #fff; padding: 0.5rem 1rem; z-index: 10; border-radius: 0 0 6px 0; }
