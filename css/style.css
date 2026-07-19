@@ -36,10 +36,11 @@ main, footer { max-width: 720px; margin: 0 auto; padding: 0 1.25rem; }
 .topo { border-bottom: 3px solid var(--azul); background: var(--azul-nevoa); }
 .topo nav { max-width: 720px; margin: 0 auto; padding: 0.9rem 1.25rem; display: flex; gap: 1.5rem; }
 .topo a { color: var(--texto); text-decoration: none; font-weight: 600; font-size: 0.95rem; }
-.topo a:hover, .topo a[aria-current] { color: var(--link); }
+.topo a:hover { color: var(--link); }
+.topo a[aria-current] { border-bottom: 2px solid var(--azul); padding-bottom: 2px; }
 
 h1 { font-size: 2rem; margin: 0.5rem 0 0.25rem; }
-h2 { font-size: 1.35rem; margin-top: 3rem; color: var(--link); border-bottom: 1px solid var(--borda); padding-bottom: 0.35rem; }
+h2 { font-size: 1.35rem; margin-top: 3rem; color: var(--texto); border-bottom: 1px solid var(--borda); padding-bottom: 0.35rem; }
 h3 { font-size: 1.05rem; margin: 0 0 0.1rem; }
 
 a { color: var(--link); }
@@ -73,3 +74,9 @@ blockquote { border-left: 3px solid var(--azul); margin: 1.5rem 0; padding: 0.25
 pre { background: var(--azul-nevoa); border: 1px solid var(--borda); border-radius: 6px; padding: 1rem; overflow-x: auto; font-size: 0.9rem; }
 code { background: var(--azul-nevoa); border-radius: 4px; padding: 0.1rem 0.35rem; font-size: 0.9em; }
 pre code { background: none; padding: 0; }
+
+/* acessibilidade */
+.skip { position: absolute; left: -9999px; top: 0; background: var(--azul); color: #fff; padding: 0.5rem 1rem; z-index: 10; border-radius: 0 0 6px 0; }
+.skip:focus { left: 0; }
+:focus-visible { outline: 2px solid var(--link); outline-offset: 2px; }
+.post-fim { margin-top: 3rem; }
