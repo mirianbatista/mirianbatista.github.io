@@ -26,7 +26,13 @@ document.addEventListener('DOMContentLoaded', function () {
     return b;
   }
 
+  var porCategoria = {};
   menu.appendChild(criaBotao('todas', null));
-  categorias.forEach(function (c) { menu.appendChild(criaBotao(c, c)); });
+  categorias.forEach(function (c) { porCategoria[c] = criaBotao(c, c); menu.appendChild(porCategoria[c]); });
   menu.hidden = false;
+
+  /* /blog/?categoria=X (link dos chips) chega com o filtro já ativo */
+  var alvo = null;
+  try { alvo = new URLSearchParams(location.search).get('categoria'); } catch (e) {}
+  if (alvo && porCategoria[alvo]) porCategoria[alvo].click();
 });

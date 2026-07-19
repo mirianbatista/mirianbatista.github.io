@@ -6,7 +6,7 @@ Site pessoal em HTML/CSS/JS estático, servido pelo GitHub Pages a partir da bra
 
 - `index.html` — sobre e experiência
 - `css/style.css` — paleta derivada de Classic Blue `#0F4C81`; tema segue o sistema e o botão da navegação fixa a escolha (`data-tema` + localStorage)
-- `js/` — `tema.js` (alternador claro/escuro) e `blog.js` (menu de categorias, gerado a partir dos `data-categoria` dos posts listados); sem JS o site inteiro continua funcional
+- `js/` — `tema.js` (alternador claro/escuro), `blog.js` (menu de categorias gerado a partir dos `data-categoria` dos posts; `/blog/?categoria=X` chega com o filtro ativo) e `experiencia.js` (o link "experiência" do menu abre todos os cargos); sem JS o site inteiro continua funcional
 - `images/` — fotos
 - `404.html` — página de erro própria
 

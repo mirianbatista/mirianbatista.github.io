@@ -41,13 +41,14 @@ body {
 }
 main, footer { max-width: 720px; margin: 0 auto; padding: 0 1.25rem; }
 
-.topo { border-bottom: 3px solid var(--azul); background: var(--azul-nevoa); }
+.topo { border-bottom: 3px solid var(--azul); background: var(--azul-nevoa); position: sticky; top: 0; z-index: 5; }
 .topo nav { max-width: 720px; margin: 0 auto; padding: 0.9rem 1.25rem; display: flex; gap: 1.5rem; align-items: center; }
 .topo a { color: var(--texto); text-decoration: none; font-weight: 600; font-size: 0.95rem; }
 .topo a:hover { color: var(--link); }
-.topo a[aria-current] { border-bottom: 2px solid var(--azul); padding-bottom: 2px; }
-.tema-btn { margin-left: auto; background: none; border: 1px solid var(--borda); border-radius: 6px; color: var(--texto); font: inherit; font-size: 1rem; line-height: 1.4; padding: 0.2rem 0.5rem; cursor: pointer; }
+.topo a[aria-current] { border-bottom: 2px solid var(--link); padding-bottom: 2px; }
+.tema-btn { margin-left: auto; background: none; border: 1px solid var(--texto-suave); border-radius: 6px; color: var(--texto); font: inherit; font-size: 1rem; line-height: 1.4; padding: 0.2rem 0.5rem; cursor: pointer; }
 .tema-btn:hover { border-color: var(--link); }
+[id] { scroll-margin-top: 4.5rem; }
 
 h1 { font-size: 2rem; margin: 0.5rem 0 0.25rem; }
 h2 { font-size: 1.35rem; margin-top: 3rem; color: var(--texto); border-bottom: 1px solid var(--borda); padding-bottom: 0.35rem; }
@@ -99,7 +100,8 @@ pre code { background: none; padding: 0; }
 .cats button { font: inherit; font-size: 0.85rem; background: var(--azul-nevoa); border: 1px solid var(--borda); border-radius: 999px; padding: 0.15rem 0.75rem; color: var(--texto); cursor: pointer; }
 .cats button:hover { border-color: var(--link); }
 .cats button[aria-pressed="true"] { background: var(--azul); border-color: var(--azul); color: #fff; }
-.post-cat { display: inline-block; font-size: 0.8rem; color: var(--texto-suave); background: var(--azul-nevoa); border: 1px solid var(--borda); border-radius: 999px; padding: 0 0.6rem; margin-left: 0.5rem; }
+.post-cat { display: inline-block; font-size: 0.8rem; color: var(--link); background: var(--azul-nevoa); border: 1px solid var(--borda); border-radius: 999px; padding: 0 0.6rem; margin-left: 0.5rem; text-decoration: none; }
+a.post-cat:hover { border-color: var(--link); text-decoration: underline; }
 
 /* acessibilidade */
 .skip { position: absolute; left: -9999px; top: 0; background: var(--azul); color: #fff; padding: 0.5rem 1rem; z-index: 10; border-radius: 0 0 6px 0; }

@@ -8,6 +8,7 @@
 <link rel="icon" href="favicon.ico">
 <link rel="stylesheet" href="css/style.css">
 <script src="/js/tema.js"></script>
+<script src="/js/experiencia.js" defer></script>
 </head>
 <body>
 <a class="skip" href="#conteudo">pular para o conteúdo</a>
@@ -36,7 +37,7 @@
 
   <section id="experiencia">
     <h2>Experiência</h2>
-    <details class="item">
+    <details class="item" open>
       <summary>
         <h3>Data Product Engineer · Jusbrasil</h3>
         <span class="periodo">desde 2022</span>
@@ -79,10 +80,16 @@
         <p>Estagiei no BI da Receita Federal contribuindo com a implementação das ETLs, com a especificação das regras das cargas de dados e no frontend.</p>
       </div>
     </details>
-    <article class="item">
-      <h3>Formação</h3>
-      <p class="periodo">Sistemas de Informação · Universidade Federal da Paraíba · 2016 a 2021</p>
-    </article>
+    <details class="item">
+      <summary>
+        <h3>Formação</h3>
+        <span class="periodo">Sistemas de Informação · Universidade Federal da Paraíba · 2016 a 2021</span>
+      </summary>
+      <div class="detalhe">
+        <p>A graduação foi cheia de extensão e pesquisa: explorei dados de licitações dos municípios paraibanos pra fiscalização de gastos públicos, estudei séries temporais em casos de violência contra a mulher na Paraíba, prototipei como estagiária de UX o Autism Guide (recomendações de software pra pessoas autistas) e levei transparência pública e educação empreendedora pra comunidade. Muita habilidade que uso hoje nasceu aí.</p>
+        <p>No TCC analisei a influência de fatores socioeconômicos e de mobilidade na incidência e na mortalidade da COVID-19 em municípios brasileiros, com correlação e regressão linear sobre dados abertos (Brasil.io, IDHM, isolamento social). A renda se mostrou o fator de maior efeito nos dois indicadores. <a href="https://github.com/mirianbatista/covid-fatores" target="_blank" rel="noopener">Análises no GitHub</a>.</p>
+      </div>
+    </details>
   </section>
 </main>
 
