@@ -60,3 +60,16 @@ a:hover { text-decoration-thickness: 2px; }
 .projetos li { margin-bottom: 0.5rem; }
 
 footer { margin-top: 4rem; padding-bottom: 2rem; border-top: 1px solid var(--borda); color: var(--texto-suave); font-size: 0.85rem; }
+
+/* blog */
+.posts { list-style: none; padding: 0; }
+.posts li { margin-bottom: 2rem; }
+.post-data { color: var(--texto-suave); font-size: 0.85rem; display: block; }
+.post-titulo { font-size: 1.25rem; font-weight: 700; text-decoration: none; }
+.post-titulo:hover { text-decoration: underline; }
+.post-resumo { margin: 0.25rem 0 0; color: var(--texto-suave); max-width: 65ch; }
+.post article p, .post article li { max-width: 70ch; }
+blockquote { border-left: 3px solid var(--azul); margin: 1.5rem 0; padding: 0.25rem 0 0.25rem 1rem; color: var(--texto-suave); }
+pre { background: var(--azul-nevoa); border: 1px solid var(--borda); border-radius: 6px; padding: 1rem; overflow-x: auto; font-size: 0.9rem; }
+code { background: var(--azul-nevoa); border-radius: 4px; padding: 0.1rem 0.35rem; font-size: 0.9em; }
+pre code { background: none; padding: 0; }
