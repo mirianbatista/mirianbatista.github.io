@@ -5,29 +5,13 @@
   <link rel="self" href="https://mirianbatista.github.io/blog/feed.xml"/>
   <id>https://mirianbatista.github.io/blog/</id>
   <author><name>Mírian Batista</name></author>
-  <updated>2026-07-19T20:30:00Z</updated>
-  <entry>
-    <title>Post de teste de email</title>
-    <link href="https://mirianbatista.github.io/blog/teste-email.html"/>
-    <id>https://mirianbatista.github.io/blog/teste-email.html</id>
-    <updated>2026-07-19T20:30:00Z</updated>
-    <category term="engenharia de dados"/>
-    <summary>Terceira página temporária, pra validar a entrega de post novo por email.</summary>
-  </entry>
-  <entry>
-    <title>Post de teste de categorias</title>
-    <link href="https://mirianbatista.github.io/blog/teste-categorias.html"/>
-    <id>https://mirianbatista.github.io/blog/teste-categorias.html</id>
-    <updated>2026-07-19T12:00:00Z</updated>
-    <category term="context engineering"/>
-    <summary>Segunda página temporária, pra validar como as categorias aparecem.</summary>
-  </entry>
+  <updated>2026-07-19T22:00:00Z</updated>
   <entry>
     <title>Post de teste</title>
-    <link href="https://mirianbatista.github.io/blog/teste.html"/>
-    <id>https://mirianbatista.github.io/blog/teste.html</id>
-    <updated>2026-07-19T00:00:00Z</updated>
+    <link href="https://mirianbatista.github.io/blog/teste-geral.html"/>
+    <id>https://mirianbatista.github.io/blog/teste-geral.html</id>
+    <updated>2026-07-19T22:00:00Z</updated>
     <category term="engenharia de dados"/>
-    <summary>Página temporária pra validar o layout do blog.</summary>
+    <summary>Página temporária única: valida layout, categoria e entrega por email.</summary>
   </entry>
 </feed>
