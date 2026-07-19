@@ -8,39 +8,39 @@
 <link rel="icon" href="/favicon.ico">
 <link rel="alternate" type="application/atom+xml" title="Feed do blog" href="/blog/feed.xml">
 <link rel="stylesheet" href="/css/style.css">
-<script src="/js/tema.js"></script>
+<script src="/js/theme.js"></script>
 </head>
 <body>
-<a class="skip" href="#conteudo">pular para o conteúdo</a>
-<header class="topo">
+<a class="skip" href="#content">pular para o conteúdo</a>
+<header class="topbar">
   <nav>
     <a href="/">início</a>
     <a href="/#experiencia">experiência</a>
     <a href="/blog/">blog</a>
     <a href="/blog/assinar.html" aria-current="page">assinar</a>
-    <button id="alternar-tema" class="tema-btn" hidden aria-label="alternar tema">🌙</button>
+    <button id="theme-toggle" class="theme-btn" hidden aria-label="alternar tema">🌙</button>
   </nav>
 </header>
 
-<main id="conteudo">
+<main id="content">
   <section>
-    <h1 class="titulo-secao">Assinar o blog</h1>
-    <p>O blog publica um feed; é por ele que você fica sabendo de post novo, sem rede social no meio. Adicione este endereço no seu leitor de RSS (Feedly, NetNewsWire, Inoreader ou similar):</p>
+    <h1 class="section-title">Assinar o blog</h1>
+    <p>O blog publica um feed; é por ele que você fica sabendo de post novo. Adicione este endereço no seu leitor de RSS (Feedly, NetNewsWire, Inoreader ou similar):</p>
     <pre><code id="feed-url">https://mirianbatista.github.io/blog/feed.xml</code></pre>
-    <p><button class="botao" id="copiar-feed" hidden>Copiar endereço</button></p>
-    <p class="post-data">O endereço é pra colar no leitor; aberto direto no navegador, ele aparece como código (XML), sem formatação. Se preferir receber por email, serviços gratuitos como Blogtrottr entregam qualquer feed na caixa de entrada.</p>
+    <p><button class="btn" id="copy-feed" hidden>Copiar endereço</button></p>
+    <p class="post-date">O endereço é pra colar no leitor; aberto direto no navegador, ele aparece como código (XML), sem formatação. Se preferir receber por email, serviços gratuitos como Blogtrottr entregam qualquer feed na caixa de entrada.</p>
   </section>
 </main>
 
 <script>
 (function () {
-  var botao = document.getElementById('copiar-feed');
-  if (!botao || !navigator.clipboard) return;
-  botao.hidden = false;
-  botao.addEventListener('click', function () {
+  var btn = document.getElementById('copy-feed');
+  if (!btn || !navigator.clipboard) return;
+  btn.hidden = false;
+  btn.addEventListener('click', function () {
     navigator.clipboard.writeText(document.getElementById('feed-url').textContent).then(function () {
-      botao.textContent = 'Copiado!';
-      setTimeout(function () { botao.textContent = 'Copiar endereço'; }, 2000);
+      btn.textContent = 'Copiado!';
+      setTimeout(function () { btn.textContent = 'Copiar endereço'; }, 2000);
     });
   });
 })();

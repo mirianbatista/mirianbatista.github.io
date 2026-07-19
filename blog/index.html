@@ -8,31 +8,31 @@
 <link rel="icon" href="/favicon.ico">
 <link rel="alternate" type="application/atom+xml" title="Feed do blog" href="/blog/feed.xml">
 <link rel="stylesheet" href="/css/style.css">
-<script src="/js/tema.js"></script>
+<script src="/js/theme.js"></script>
 <script src="/js/blog.js" defer></script>
 </head>
 <body>
-<a class="skip" href="#conteudo">pular para o conteúdo</a>
-<header class="topo">
+<a class="skip" href="#content">pular para o conteúdo</a>
+<header class="topbar">
   <nav>
     <a href="/">início</a>
     <a href="/#experiencia">experiência</a>
     <a href="/blog/" aria-current="page">blog</a>
     <a href="/blog/assinar.html">assinar</a>
-    <button id="alternar-tema" class="tema-btn" hidden aria-label="alternar tema">🌙</button>
+    <button id="theme-toggle" class="theme-btn" hidden aria-label="alternar tema">🌙</button>
   </nav>
 </header>
 
-<main id="conteudo">
+<main id="content">
   <section>
-    <h1 class="titulo-secao">Blog</h1>
-    <nav id="categorias" class="cats" hidden aria-label="filtrar posts por categoria"></nav>
+    <h1 class="section-title">Blog</h1>
+    <nav id="categories" class="cats" hidden aria-label="filtrar posts por categoria"></nav>
     <ul class="posts">
-      <li data-categoria="engenharia de dados">
-        <span class="post-data">19 jul 2026</span>
+      <li data-category="engenharia de dados">
+        <span class="post-date">19 jul 2026</span>
         <a class="post-cat" href="/blog/?categoria=engenharia%20de%20dados">engenharia de dados</a>
-        <a class="post-titulo" href="/blog/teste-geral.html">Post de teste</a>
-        <p class="post-resumo">Página temporária única: valida layout, categoria e entrega por email. Some quando o primeiro post real chegar.</p>
+        <a class="post-title" href="/blog/teste-geral.html">Post de teste</a>
+        <p class="post-summary">Página temporária única: valida layout, categoria e entrega por email. Some quando o primeiro post real chegar.</p>
       </li>
     </ul>
   </section>

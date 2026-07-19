@@ -7,24 +7,24 @@
 <meta name="description" content="Site pessoal de Mírian Batista, Data Product Engineer.">
 <link rel="icon" href="favicon.ico">
 <link rel="stylesheet" href="css/style.css">
-<script src="/js/tema.js"></script>
-<script src="/js/experiencia.js" defer></script>
+<script src="/js/theme.js"></script>
+<script src="/js/experience.js" defer></script>
 </head>
 <body>
-<a class="skip" href="#conteudo">pular para o conteúdo</a>
-<header class="topo">
+<a class="skip" href="#content">pular para o conteúdo</a>
+<header class="topbar">
   <nav>
     <a href="/" aria-current="page">início</a>
     <a href="/#experiencia">experiência</a>
     <a href="/blog/">blog</a>
     <a href="/blog/assinar.html">assinar</a>
-    <button id="alternar-tema" class="tema-btn" hidden aria-label="alternar tema">🌙</button>
+    <button id="theme-toggle" class="theme-btn" hidden aria-label="alternar tema">🌙</button>
   </nav>
 </header>
 
-<main id="conteudo">
-  <section class="hero" id="sobre">
-    <img class="foto" src="images/profilepic.jpg" alt="Foto de Mírian Batista" width="140" height="140">
+<main id="content">
+  <section class="hero" id="about">
+    <img class="photo" src="images/profilepic.jpg" alt="Foto de Mírian Batista" width="140" height="140">
     <h1>Mírian Batista</h1>
     <p class="tagline">Data Product Engineer</p>
     <p class="bio">Sou Data Product Engineer na plataforma de dados do Jusbrasil. Construo e mantenho a plataforma que abastece as decisões de mais de 700 pessoas em Analytics, Data Science, Monetization, CX e Produto. No dia a dia opero Airflow (Cloud Composer), Spark (Dataproc), Dataflow, BigQuery e outras ferramentas GCP, sempre por três lentes: confiabilidade, custo e impacto pra quem consome lá na frente.</p>
@@ -40,9 +40,9 @@
     <details class="item" open>
       <summary>
         <h3>Data Product Engineer · Jusbrasil</h3>
-        <span class="periodo">desde 2022</span>
+        <span class="period">desde 2022</span>
       </summary>
-      <div class="detalhe">
+      <div class="detail">
         <ul>
           <li>Conduzo a construção da base de conhecimento e da infraestrutura de contexto que habilita agentes de IA a operar a plataforma de dados de forma assistida e progressivamente autônoma, com o objetivo de dar autonomia aos times na criação e operação de seus próprios pipelines.</li>
           <li>Reduzi 56% do custo das pipelines de CDC criando um sensor customizado no Airflow (DataflowJobDrainSensor), que virou default da DagFactory do time e eliminou um atraso de entrega de dados para produtos da área de Growth.</li>
@@ -50,42 +50,42 @@
           <li>Garanto estabilidade em produção de componentes críticos: 2 Airflows (Cloud Composer), Metabase, Airbyte e API de eventos interna.</li>
           <li>Atuo no oncall investigando alertas e atendendo times clientes, garantindo dados confiáveis na velocidade que precisam.</li>
         </ul>
-        <p class="periodo">Stack: Airflow/Composer, Dataproc, Dataflow, BigQuery, GCS, PySpark, Python, Scala, Kubernetes, Kafka, Terraform, Vault, Prometheus, OpenTelemetry, CloudSQL.</p>
+        <p class="period">Stack: Airflow/Composer, Dataproc, Dataflow, BigQuery, GCS, PySpark, Python, Scala, Kubernetes, Kafka, Terraform, Vault, Prometheus, OpenTelemetry, CloudSQL.</p>
       </div>
     </details>
     <details class="item">
       <summary>
         <h3>Junior Data Engineer · James Delivery</h3>
-        <span class="periodo">2022</span>
+        <span class="period">2022</span>
       </summary>
-      <div class="detalhe">
+      <div class="detail">
         <p>Atuei na implementação de datalake e no desenvolvimento do ambiente de testes do datalake; fui responsável pela criação, manutenção e monitoramento de dags Airflow; auxiliei as equipes de data analytics e data science em manutenções de ETLs e modelos; contribuí no monitoramento e redução de custos de serviços AWS; realizei implementações e manutenções de integrações com dados externos.</p>
       </div>
     </details>
     <details class="item">
       <summary>
         <h3>Pesquisadora em Análise e Engenharia de Dados · AYTY (lab. de pesquisa da UFPB)</h3>
-        <span class="periodo">2021 a 2022</span>
+        <span class="period">2021 a 2022</span>
       </summary>
-      <div class="detalhe">
+      <div class="detail">
         <p>Em projeto de parceria entre o AYTY e a empresa Phoebus, implementei as ETLs e dashboards PowerBI dos produtos de dados do Google (Analytics, Cloud Storage, Play Console), atuei em projetos de previsão de séries temporais, além de realizar migrações de ETLs do Pentaho para o Airflow e manutenções de ETLs em geral.</p>
       </div>
     </details>
     <details class="item">
       <summary>
         <h3>Estagiária de Business Intelligence · Dataprev</h3>
-        <span class="periodo">2021</span>
+        <span class="period">2021</span>
       </summary>
-      <div class="detalhe">
+      <div class="detail">
         <p>Estagiei no BI da Receita Federal contribuindo com a implementação das ETLs, com a especificação das regras das cargas de dados e no frontend.</p>
       </div>
     </details>
     <details class="item">
       <summary>
         <h3>Formação</h3>
-        <span class="periodo">Sistemas de Informação · Universidade Federal da Paraíba · 2016 a 2021</span>
+        <span class="period">Sistemas de Informação · Universidade Federal da Paraíba · 2016 a 2021</span>
       </summary>
-      <div class="detalhe">
+      <div class="detail">
         <p>A graduação foi cheia de extensão e pesquisa: explorei dados de licitações dos municípios paraibanos pra fiscalização de gastos públicos, estudei séries temporais em casos de violência contra a mulher na Paraíba, prototipei como estagiária de UX o Autism Guide (recomendações de software pra pessoas autistas) e levei transparência pública e educação empreendedora pra comunidade. Muita habilidade que uso hoje nasceu aí!</p>
         <p>No TCC analisei a influência de fatores socioeconômicos e de mobilidade na incidência e na mortalidade da COVID-19 em municípios brasileiros, com correlação e regressão linear sobre dados abertos (Brasil.io, IDHM, isolamento social). A renda se mostrou o fator de maior efeito nos dois indicadores. <a href="https://github.com/mirianbatista/covid-fatores" target="_blank" rel="noopener">Análises no GitHub</a> · <a href="https://drive.google.com/file/d/1bzFQDcWyNSohhhAbmKhk7Ie4PJTqvn5Q/view" target="_blank" rel="noopener">Artigo (PDF)</a>.</p>
       </div>
