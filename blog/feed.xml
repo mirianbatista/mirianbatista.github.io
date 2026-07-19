@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Blog · Mírian Batista</title>
+  <subtitle>A jornada agêntica de uma engenheira de dados</subtitle>
+  <link href="https://mirianbatista.github.io/blog/"/>
+  <link rel="self" href="https://mirianbatista.github.io/blog/feed.xml"/>
+  <id>https://mirianbatista.github.io/blog/</id>
+  <author><name>Mírian Batista</name></author>
+  <updated>2026-07-19T00:00:00Z</updated>
+  <entry>
+    <title>Post de teste</title>
+    <link href="https://mirianbatista.github.io/blog/teste.html"/>
+    <id>https://mirianbatista.github.io/blog/teste.html</id>
+    <updated>2026-07-19T00:00:00Z</updated>
+    <summary>Página temporária pra validar o layout do blog.</summary>
+  </entry>
+</feed>

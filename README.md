@@ -1,6 +1,6 @@
 # mirianbatista.github.io
 
-Site pessoal em HTML/CSS estático, servido pelo GitHub Pages a partir da branch `master`. O blog vive no repositório [`blog`](https://github.com/mirianbatista/blog) e é servido em `/blog/`.
+Site pessoal em HTML/CSS estático, servido pelo GitHub Pages a partir da branch `master`. O blog vive na pasta `blog/` deste repositório.
 
 ## Estrutura
 
