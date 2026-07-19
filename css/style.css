@@ -1,0 +1,62 @@
+/* Paleta derivada de Classic Blue #0F4C81 (base; sombras = mistura com preto, tintas = mistura com branco) */
+:root {
+  --azul: #0F4C81;
+  --azul-escuro: #0B3A62;
+  --azul-profundo: #072947;
+  --azul-medio: #3D6E9C;
+  --azul-claro: #C3D4E4;
+  --azul-nevoa: #EFF4F9;
+  --bg: #FDFEFF;
+  --texto: #1C2733;
+  --texto-suave: #4A5A6A;
+  --borda: #DCE6F0;
+  --link: var(--azul);
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #0B1520;
+    --texto: #DCE6F0;
+    --texto-suave: #93A7BB;
+    --borda: #1E3348;
+    --azul-nevoa: #12202E;
+    --link: #7FA8CE;
+  }
+}
+
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  line-height: 1.65;
+  color: var(--texto);
+  background: var(--bg);
+}
+main, footer { max-width: 720px; margin: 0 auto; padding: 0 1.25rem; }
+
+.topo { border-bottom: 3px solid var(--azul); background: var(--azul-nevoa); }
+.topo nav { max-width: 720px; margin: 0 auto; padding: 0.9rem 1.25rem; display: flex; gap: 1.5rem; }
+.topo a { color: var(--texto); text-decoration: none; font-weight: 600; font-size: 0.95rem; }
+.topo a:hover, .topo a[aria-current] { color: var(--link); }
+
+h1 { font-size: 2rem; margin: 0.5rem 0 0.25rem; }
+h2 { font-size: 1.35rem; margin-top: 3rem; color: var(--link); border-bottom: 1px solid var(--borda); padding-bottom: 0.35rem; }
+h3 { font-size: 1.05rem; margin: 0 0 0.1rem; }
+
+a { color: var(--link); }
+a:hover { text-decoration-thickness: 2px; }
+
+.hero { padding-top: 3rem; }
+.foto { border-radius: 50%; border: 3px solid var(--azul); object-fit: cover; }
+.tagline { color: var(--texto-suave); font-size: 1.1rem; margin-top: 0; }
+.bio { max-width: 65ch; }
+.social { display: flex; gap: 1.25rem; flex-wrap: wrap; margin-top: 1.5rem; }
+.social a { font-weight: 600; }
+
+.item { margin-bottom: 1.75rem; }
+.periodo { color: var(--texto-suave); font-size: 0.9rem; margin: 0 0 0.4rem; }
+.item p { margin-top: 0; max-width: 70ch; }
+
+.projetos { padding-left: 1.2rem; }
+.projetos li { margin-bottom: 0.5rem; }
+
+footer { margin-top: 4rem; padding-bottom: 2rem; border-top: 1px solid var(--borda); color: var(--texto-suave); font-size: 0.85rem; }
