@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Blog · Mírian Batista</title>
-  <subtitle>A jornada agêntica de uma engenheira de dados</subtitle>
   <link href="https://mirianbatista.github.io/blog/"/>
   <link rel="self" href="https://mirianbatista.github.io/blog/feed.xml"/>
   <id>https://mirianbatista.github.io/blog/</id>
