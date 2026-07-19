@@ -106,6 +106,13 @@ a.post-cat:hover { border-color: var(--link); text-decoration: underline; }
 .botao { display: inline-block; background: var(--azul); color: #fff; padding: 0.5rem 1.1rem; border-radius: 6px; text-decoration: none; font-weight: 600; font-family: inherit; font-size: 0.95rem; border: none; cursor: pointer; }
 .botao:hover { background: var(--azul-escuro); text-decoration: none; }
 
+/* form de assinatura por email */
+.form-assinar label { display: block; font-size: 0.9rem; color: var(--texto-suave); margin-bottom: 0.3rem; }
+.linha-form { display: flex; gap: 0.5rem; flex-wrap: wrap; }
+.linha-form input { flex: 1 1 220px; font: inherit; padding: 0.45rem 0.7rem; border: 1px solid var(--texto-suave); border-radius: 6px; background: var(--bg); color: var(--texto); }
+
+.gif-404 { display: block; margin-top: 2rem; border-radius: 8px; max-width: 100%; }
+
 /* acessibilidade */
 .skip { position: absolute; left: -9999px; top: 0; background: var(--azul); color: #fff; padding: 0.5rem 1rem; z-index: 10; border-radius: 0 0 6px 0; }
 .skip:focus { left: 0; }
