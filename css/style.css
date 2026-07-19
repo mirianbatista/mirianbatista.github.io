@@ -12,8 +12,16 @@
   --borda: #DCE6F0;
   --link: var(--azul);
 }
+:root[data-tema="escuro"] {
+  --bg: #0B1520;
+  --texto: #DCE6F0;
+  --texto-suave: #93A7BB;
+  --borda: #1E3348;
+  --azul-nevoa: #12202E;
+  --link: #7FA8CE;
+}
 @media (prefers-color-scheme: dark) {
-  :root {
+  :root:not([data-tema="claro"]) {
     --bg: #0B1520;
     --texto: #DCE6F0;
     --texto-suave: #93A7BB;
@@ -34,10 +42,12 @@ body {
 main, footer { max-width: 720px; margin: 0 auto; padding: 0 1.25rem; }
 
 .topo { border-bottom: 3px solid var(--azul); background: var(--azul-nevoa); }
-.topo nav { max-width: 720px; margin: 0 auto; padding: 0.9rem 1.25rem; display: flex; gap: 1.5rem; }
+.topo nav { max-width: 720px; margin: 0 auto; padding: 0.9rem 1.25rem; display: flex; gap: 1.5rem; align-items: center; }
 .topo a { color: var(--texto); text-decoration: none; font-weight: 600; font-size: 0.95rem; }
 .topo a:hover { color: var(--link); }
 .topo a[aria-current] { border-bottom: 2px solid var(--azul); padding-bottom: 2px; }
+.tema-btn { margin-left: auto; background: none; border: 1px solid var(--borda); border-radius: 6px; color: var(--texto); font: inherit; font-size: 1rem; line-height: 1.4; padding: 0.2rem 0.5rem; cursor: pointer; }
+.tema-btn:hover { border-color: var(--link); }
 
 h1 { font-size: 2rem; margin: 0.5rem 0 0.25rem; }
 h2 { font-size: 1.35rem; margin-top: 3rem; color: var(--texto); border-bottom: 1px solid var(--borda); padding-bottom: 0.35rem; }
@@ -57,16 +67,25 @@ a:hover { text-decoration-thickness: 2px; }
 .periodo { color: var(--texto-suave); font-size: 0.9rem; margin: 0 0 0.4rem; }
 .item p { margin-top: 0; max-width: 70ch; }
 
-.projetos { padding-left: 1.2rem; }
-.projetos li { margin-bottom: 0.5rem; }
+/* experiência expansível */
+details.item summary { display: grid; grid-template-columns: 1.15rem 1fr; cursor: pointer; list-style: none; }
+details.item summary::-webkit-details-marker { display: none; }
+details.item summary::before { content: "▸"; color: var(--link); grid-row: 1 / span 2; }
+details.item[open] summary::before { content: "▾"; }
+details.item summary h3 { margin: 0; }
+details.item summary:hover h3 { color: var(--link); }
+details.item summary .periodo { display: block; grid-column: 2; margin: 0; }
+details.item .detalhe { margin-left: 1.15rem; padding-top: 0.4rem; }
+details.item .detalhe > :first-child { margin-top: 0; }
 
 footer { margin-top: 4rem; padding-bottom: 2rem; border-top: 1px solid var(--borda); color: var(--texto-suave); font-size: 0.85rem; }
 
 /* blog */
 .posts { list-style: none; padding: 0; }
 .posts li { margin-bottom: 2rem; }
-.post-data { color: var(--texto-suave); font-size: 0.85rem; display: block; }
-.post-titulo { font-size: 1.25rem; font-weight: 700; text-decoration: none; }
+.post-data { color: var(--texto-suave); font-size: 0.85rem; }
+.posts .post-data { display: inline-block; }
+.post-titulo { font-size: 1.25rem; font-weight: 700; text-decoration: none; display: block; }
 .post-titulo:hover { text-decoration: underline; }
 .post-resumo { margin: 0.25rem 0 0; color: var(--texto-suave); max-width: 65ch; }
 .post article p, .post article li { max-width: 70ch; }
@@ -74,6 +93,13 @@ blockquote { border-left: 3px solid var(--azul); margin: 1.5rem 0; padding: 0.25
 pre { background: var(--azul-nevoa); border: 1px solid var(--borda); border-radius: 6px; padding: 1rem; overflow-x: auto; font-size: 0.9rem; }
 code { background: var(--azul-nevoa); border-radius: 4px; padding: 0.1rem 0.35rem; font-size: 0.9em; }
 pre code { background: none; padding: 0; }
+
+/* categorias do blog */
+.cats { display: flex; gap: 0.5rem; flex-wrap: wrap; margin: 1rem 0 2rem; }
+.cats button { font: inherit; font-size: 0.85rem; background: var(--azul-nevoa); border: 1px solid var(--borda); border-radius: 999px; padding: 0.15rem 0.75rem; color: var(--texto); cursor: pointer; }
+.cats button:hover { border-color: var(--link); }
+.cats button[aria-pressed="true"] { background: var(--azul); border-color: var(--azul); color: #fff; }
+.post-cat { display: inline-block; font-size: 0.8rem; color: var(--texto-suave); background: var(--azul-nevoa); border: 1px solid var(--borda); border-radius: 999px; padding: 0 0.6rem; margin-left: 0.5rem; }
 
 /* acessibilidade */
 .skip { position: absolute; left: -9999px; top: 0; background: var(--azul); color: #fff; padding: 0.5rem 1rem; z-index: 10; border-radius: 0 0 6px 0; }
