@@ -1,0 +1,11 @@
+url: "https://mirianbatista.github.io"
+timezone: UTC
+future: true
+exclude: [README.md, docs]
+
+# URL dos posts: /blog/slug.html (só posts; páginas mantêm o caminho do arquivo)
+defaults:
+  - scope:
+      type: posts
+    values:
+      permalink: "/blog/:title.html"

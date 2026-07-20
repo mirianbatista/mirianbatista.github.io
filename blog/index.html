@@ -1,45 +1,21 @@
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Blog · Mírian Batista</title>
-<meta name="description" content="Blog de Mírian Batista.">
-<link rel="icon" href="/favicon.ico">
-<link rel="alternate" type="application/atom+xml" title="Feed do blog" href="/blog/feed.xml">
-<link rel="stylesheet" href="/css/style.css">
-<script src="/js/theme.js"></script>
-<script src="/js/blog.js" defer></script>
-</head>
-<body>
-<a class="skip" href="#content">pular para o conteúdo</a>
-<header class="topbar">
-  <nav>
-    <a href="/">início</a>
-    <a href="/#experiencia">experiência</a>
-    <a href="/blog/" aria-current="page">blog</a>
-    <a href="/blog/assinar.html">assinar</a>
-    <button id="theme-toggle" class="theme-btn" hidden aria-label="alternar tema">🌛</button>
-  </nav>
-</header>
-
+---
+layout: default
+title: Blog
+description: Blog de Mírian Batista.
+scripts: [/js/blog.js]
+---
+{% assign meses = "jan,fev,mar,abr,mai,jun,jul,ago,set,out,nov,dez" | split: "," -%}
 <main id="content">
   <section>
     <h1 class="section-title">Blog</h1>
     <nav id="categories" class="cats" hidden aria-label="filtrar posts por categoria"></nav>
-    <ul class="posts">
-      <li data-category="engenharia de dados">
-        <span class="post-date">19 jul 2026</span>
-        <a class="post-cat" href="/blog/?categoria=engenharia%20de%20dados">engenharia de dados</a>
-        <a class="post-title" href="/blog/teste-geral.html">Post de teste</a>
-        <p class="post-summary">Página temporária única: valida layout, categoria e entrega por email. Some quando o primeiro post real chegar.</p>
-      </li>
+    <ul class="posts">{% for post in site.posts %}{% assign mi = post.date | date: "%-m" | plus: 0 | minus: 1 %}
+      <li data-category="{{ post.categoria }}">
+        <span class="post-date">{{ post.date | date: "%-d" }} {{ meses[mi] }} {{ post.date | date: "%Y" }}</span>
+        <a class="post-cat" href="/blog/?categoria={{ post.categoria | replace: " ", "%20" }}">{{ post.categoria }}</a>
+        <a class="post-title" href="{{ post.url }}">{{ post.title }}</a>
+        <p class="post-summary">{{ post.summary }}</p>
+      </li>{% endfor %}
     </ul>
   </section>
 </main>
-
-<footer>
-  <p>© 2026 Mírian Batista · <a href="/blog/assinar.html">assinar o blog</a></p>
-</footer>
-</body>
-</html>

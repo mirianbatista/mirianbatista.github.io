@@ -1,0 +1,15 @@
+---
+layout: default
+---
+{% assign meses = "janeiro,fevereiro,março,abril,maio,junho,julho,agosto,setembro,outubro,novembro,dezembro" | split: "," -%}
+{% assign mi = page.date | date: "%-m" | plus: 0 | minus: 1 -%}
+<main id="content" class="post">
+  <article>
+    <p class="post-date">{{ page.date | date: "%-d" }} de {{ meses[mi] }} de {{ page.date | date: "%Y" }} <a class="post-cat" href="/blog/?categoria={{ page.categoria | replace: " ", "%20" }}">{{ page.categoria }}</a></p>
+    <h1>{{ page.title }}</h1>
+    <p class="tagline">{{ page.tagline }}</p>
+
+{{ content }}
+    <p class="post-end"><a href="/blog/">← todos os posts</a></p>
+  </article>
+</main>

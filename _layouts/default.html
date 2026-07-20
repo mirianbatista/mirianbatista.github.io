@@ -1,0 +1,32 @@
+{% assign desc = page.description | default: page.summary -%}
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{% if page.title %}{{ page.title }} · Mírian Batista{% else %}Mírian Batista{% endif %}</title>{% if desc %}
+<meta name="description" content="{{ desc }}">{% endif %}
+<link rel="icon" href="/favicon.ico">{% if page.url contains "/blog/" %}
+<link rel="alternate" type="application/atom+xml" title="Feed do blog" href="/blog/feed.xml">{% endif %}
+<link rel="stylesheet" href="/css/style.css">
+<script src="/js/theme.js"></script>{% for script in page.scripts %}
+<script src="{{ script }}" defer></script>{% endfor %}
+</head>
+<body>
+<a class="skip" href="#content">pular para o conteúdo</a>
+<header class="topbar">
+  <nav>
+    <a href="/"{% if page.url == "/" %} aria-current="page"{% endif %}>início</a>
+    <a href="/#experiencia">experiência</a>
+    <a href="/blog/"{% if page.url contains "/blog/" and page.url != "/blog/assinar.html" %} aria-current="page"{% endif %}>blog</a>
+    <a href="/blog/assinar.html"{% if page.url == "/blog/assinar.html" %} aria-current="page"{% endif %}>assinar</a>
+    <button id="theme-toggle" class="theme-btn" hidden aria-label="alternar tema">🌛</button>
+  </nav>
+</header>
+
+{{ content }}
+<footer>
+  <p>© 2026 Mírian Batista · <a href="/blog/assinar.html">assinar o blog</a></p>
+</footer>
+</body>
+</html>

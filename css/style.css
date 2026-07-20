@@ -92,6 +92,7 @@ footer { margin-top: 4rem; padding-bottom: 2rem; border-top: 1px solid var(--bor
 .post-summary { margin: 0.25rem 0 0; color: var(--text-soft); max-width: 65ch; }
 .post article p, .post article li { max-width: 70ch; }
 blockquote { border-left: 3px solid var(--blue); margin: 1.5rem 0; padding: 0.25rem 0 0.25rem 1rem; color: var(--text-soft); }
+blockquote p { margin: 0; }
 pre { background: var(--blue-mist); border: 1px solid var(--border); border-radius: 6px; padding: 1rem; overflow-x: auto; font-size: 0.9rem; }
 code { background: var(--blue-mist); border-radius: 4px; padding: 0.1rem 0.35rem; font-size: 0.9em; }
 pre code { background: none; padding: 0; }
